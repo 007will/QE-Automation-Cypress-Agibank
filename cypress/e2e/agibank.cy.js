@@ -17,6 +17,13 @@ describe('Cenário de Testes Agibank', () => {
     cy.contains(teste_agibank.mensagemErro).should('be.visible');
   });
 
+    it.only('Validar e-mail já inscrito', () => {
+    cy.acessarSiteAgibank();
+    cy.irParaNewsletters();
+    cy.cadastroNewsletters(teste_agibank.emailExistente);
+    cy.contains(teste_agibank.mensagemErro).should('be.visible');
+  });
+
   it('Pesquisar notícia', () => {
     cy.acessarSiteAgibank();
     cy.pesquisarNoticia(teste_agibank.tituloNoticia);
