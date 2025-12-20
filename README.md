@@ -1,4 +1,4 @@
-# Projeto de Testes Automatizados - Cypress para o Blog AgiBank
+# Projeto de Testes Automatizados - Cypress Desafio AgiBank
 
 Este repositório contém uma suíte de testes automatizados utilizando **Cypress**, organizada para testes do site AgiBank.
 
