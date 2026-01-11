@@ -1,6 +1,6 @@
-# Projeto de Testes Automatizados - Cypress Desafio AgiBank
+# Projeto de QE - Testes Automatizados - Cypress Desafio AgiBank
 
-Este repositório contém uma suíte de testes automatizados utilizando **Cypress**, organizada para testes do site AgiBank.
+Este repositório contém uma suíte de testes automatizados utilizando **Cypress** e JavaScript, organizada para testes do site AgiBank.
 
 ## 📁 Estrutura do Projeto
 
@@ -18,19 +18,39 @@ cypress/
 cypress.config.js           # Configuração: viewport, baseUrl, plugins
 package.json                # Dependências e scripts
 ```
-
-cypress/
-├── dataTest/
-│   └── data_hml.js        # Massa de dados utilizada nos testes
-├── e2e/
-│   └── agibank.cy.js      # Cenários de testes E2E
-├── fixtures/
-│   └── example.json       # Exemplo padrão do Cypress
-├── support/
-│   ├── commands.js        # Comandos customizados Cypress
-│   └── e2e.js             # Configurações globais dos testes
-cypress.config.js          # Configurações do Cypress
-package.json               # Dependências do projeto
+**REFATORADO POSTERIORMENTE** 
+qa-automation-cypress-agibank/
+│
+├── cypress/
+│   ├── e2e/
+│   │   ├── ui/
+│   │   │   ├── newsletter.cy.js
+│   │   │   └── search.cy.js
+│   │   │
+│   │   └── api/
+│   │       └── newsletter-api.cy.js
+│   │
+│   ├── fixtures/
+│   │   └── newsletter.json
+│   │
+│   ├── pages/
+│   │   ├── HomePage.js
+│   │   └── NewsletterPage.js
+│   │
+│   ├── support/
+│   │   ├── commands.js
+│   │   └── e2e.js
+│   │
+│   └── utils/
+│       └── dataFactory.js
+│
+├── .github/
+│   └── workflows/
+│       └── cypress.yml
+│
+├── cypress.config.js
+├── package.json
+└── README.md
 
 ````
 
