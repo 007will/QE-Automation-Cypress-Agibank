@@ -159,7 +159,7 @@ npx cypress run
 👤 **Author:** José Willams  
 🔗 **GitHub:** https://github.com/007will/AgiBank  
 
-<a href="https://github.com/sponsors/007will" target="_blank" style="display:inline-block; color:white; background:#6cc644; padding:0.5em 1em; border-radius:6px; text-decoration:none; font-family:sans-serif;">
+<iframe src="https://github.com/sponsors/007will/button" title="Sponsor 007will" height="32" width="114" style="border: 0; border-radius: 6px;"></iframe>
   ❤️ Sponsor ❤️
 </a>
 </details>
