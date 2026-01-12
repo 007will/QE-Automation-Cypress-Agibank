@@ -6,6 +6,11 @@
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-blue)
 ![QA](https://img.shields.io/badge/Quality-Assurance-informational)
 
+<a href="https://github.com/sponsors/007will" target="_blank">
+  <img src="https://img.shields.io/badge/Sponsor-007will-critical?logo=github&style=flat-square"
+  alt="Sponsor 007will on GitHub" />
+</a>
+
 Automated testing project built with **Cypress**, focused on **UI and API End-to-End testing** of the **AgiBank Blog**, following QA Automation best practices and portfolio-ready structure.
 
 ---
